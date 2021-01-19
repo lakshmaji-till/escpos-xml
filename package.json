@@ -37,7 +37,7 @@
     "url": "https://github.com/hitz-group/xml-escpos-helper/issues"
   },
   "dependencies": {
-    "handlebars": "^4.0.10",
+    "handlebars": "https://github.com/DhananjayAccolite/handlebars.js.git",
     "lodash": "^4.17.20",
     "moment": "^2.29.1",
     "mutable-buffer": "2.0.3",
