@@ -3,6 +3,7 @@ import { BufferBuilder, RASTER_MODE } from "../buffer-builder";
 import ndarray from "ndarray";
 import Image from "../image";
 import pngjs from "pngjs";
+import {Buffer} from 'buffer';
 
 const PNG = pngjs.PNG;
 

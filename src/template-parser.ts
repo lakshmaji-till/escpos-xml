@@ -1,4 +1,4 @@
-import * as handlebars from 'handlebars';
+import handlebars from 'react-native-handlebars';
 import * as moment from 'moment';
 import * as numeral from 'numeral';
 import 'numeral/locales/pt-br';

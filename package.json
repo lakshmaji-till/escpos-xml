@@ -37,18 +37,19 @@
     "url": "https://github.com/hitz-group/xml-escpos-helper/issues"
   },
   "dependencies": {
-    "handlebars": "https://github.com/DhananjayAccolite/handlebars.js.git",
+    "buffer": "^6.0.3",
     "lodash": "^4.17.20",
     "moment": "^2.29.1",
     "mutable-buffer": "2.0.3",
     "ndarray": "^1.0.19",
     "numeral": "^2.0.6",
     "pngjs": "^6.0.0",
+    "react-native-handlebars": "^5.0.0-alpha.1",
     "xml-parser": "^1.2.1"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.167",
-    "@types/node": "^14.14.20",
+    "@types/node": "^14.14.21",
     "@types/numeral": "0.0.22",
     "@types/xml-parser": "^1.2.29",
     "fs": "^0.0.1-security",
