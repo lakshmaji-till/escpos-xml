@@ -1,3 +1,5 @@
+global.Buffer = global.Buffer || require('buffer').Buffer
+
 export * from './template-parser';
 export * from './xml-parser';
 export * from './buffer-builder';
