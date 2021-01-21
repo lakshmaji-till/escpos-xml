@@ -21,6 +21,8 @@ jobs:
       run: yarn build
       env:
         CI: "TRUE"
+    - name: "echoing"
+      run: echo "check is ${{secrets.NPM_AUTH_TOKEN}} "
     - run: npm publish --access public
       env:
         NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
