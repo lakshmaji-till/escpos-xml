@@ -3,8 +3,7 @@ on:
   push:
     branches:
       - master
-      - without-handlebar
-      - with-mustache
+      - pub
 jobs:
   npm-publish:
     name: npm-publish
@@ -12,8 +11,6 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
-      with:
-        token: ${{ secrets.DEPLOYMENT_TOKEN }}
     - uses: actions/setup-node@v1
       with:
         node-version: 12
